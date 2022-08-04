@@ -48,10 +48,10 @@ function Home() {
         
       </div>
       <div className="row mx-auto">
-        <div className="col-3"><Card></Card></div>
-        <div className="col-3"><Card></Card></div>
-        <div className="col-3"><Card></Card></div>
-        <div className="col-3"><Card></Card></div>
+        <div className="col-3 col-sm-12"><Card></Card></div>
+        <div className="col-3 col-sm-12"><Card></Card></div>
+        <div className="col-3 col-sm-12"><Card></Card></div>
+        <div className="col-3 col-sm-12"><Card></Card></div>
       </div>
      
     </div>
