@@ -3,18 +3,40 @@
   object-fit: cover;
 }
 
-.maincard{
-    margin-left: auto;
+@media only screen and (min-width: 600px){
+  .maincard{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -90px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .maincard{
+    margin-left: auto;  
     margin-right: auto;
-    margin-top: -90px;
+    margin-bottom: 30px;
+  }
 }
 
-.event {
-    margin-top:30px;
-    padding-top: 10px;
-    margin-bottom: 60px;
-    height: 650px;
-    background-color:#f2f2f2;
+@media only screen and (min-width: 600px){
+  .event  {
+      margin-top:30px;
+      padding-top: 10px;
+      margin-bottom: 60px;
+      height: 650px;
+      background-color:#f2f2f2;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .event  {
+      
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+  }
 }
 
 .fa-instagram {

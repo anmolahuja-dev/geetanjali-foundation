@@ -17,11 +17,11 @@ function Header() {
     <div>
       <nav class='navbar bg-warning'>
         <div class='container-fluid'>
-          <div className='ms-5 text-light'>
-            <i class='fa-solid fa-house'></i> C-5/165 Yamuna vihar Delhi{' '}
+          <div className='ms-md-5 text-light'>
+            <i class='fa-solid fa-house'></i> Sector 3, Vasundra, Vaishali{' '}
             <i class=' ms-3 fa-solid fa-phone'></i>+91XXXXXXX
           </div>
-          <div className="d-flex me-5">
+          <div className="d-flex me-md-5">
             <h6>
             <i class="fa-brands fa-facebook mx-1"></i>
             <i class="fa-brands fa-instagram mx-1"></i>
